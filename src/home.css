@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.searchbox {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+}
+
+.input input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    color: grey;
+    font-size: 18px;
+    margin: 0 8px;
+}
+
+.divider {
+    height: 40px;
+    width: 1px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.country {
+    border: none;
+    outline: none;
+    padding: 8px 5px;
+    background-color: #2557a7;
+    color: white;
+}
+
+.countrybar {
+    border: none;
+    outline: none;
+    padding: 8px 5px;
+    background-color: #2557a7;
+    color: white;
+    display: none;
+}
+
+.searchbox button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2557a7;
+    color: white;
+    cursor: pointer;
+}
+
+/* hero section */ 
+
+.hero-section {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+.hero-section .loggo {
+    font-size: 60px;
+    color: #2557a7;
+    padding-bottom: 8px;
+      max-width: 100%; 
+     /*word-break: break-word;*/
+
+}
+.loggo span {
+    color: black;
+}
+.hero-section h2 {
+    margin-bottom: 8px;
+}
+.hero-section p {
+    margin-bottom: 8px;
+}
+.hero-section .start-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 24px;
+    padding: 12px 40px;
+    background-color: #2557a7;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+/* media query  */
+
+@media (max-width:750px) {
+    .country {
+        display: none;
+    }
+    .divider {
+        display: none;
+    }
+    .countrybar {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    /* responsive search bar */
+
+    .searchbox {
+        flex-direction: column;
+    }
+    .input input {
+        padding: 12px 0;
+    }
+    .searchbox button {
+        width: 100%;
+    }
+    
+}
+
