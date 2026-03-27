@@ -94,7 +94,7 @@ function Home(){
        
             <div className="hero-section">
                 <div className="hero-container">
-                 <h1 className="loggo">Job<span>Saerch</span>.</h1>
+                 <h1 className="loggo">Job<span>Search</span>.</h1>
 
                 <h2>Your next job starts here</h2>
 

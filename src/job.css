@@ -54,17 +54,18 @@
 /* grid  */
 .job-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 40px;
     margin: 20px 0;
-    padding: 40px 100px;
+    padding: 40px 20px;
 }
 .job-box {
     padding: 20px;
     border: 2px solid grey;
     border-radius: 20px;
-    padding: 20px ;
-     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
 }
 .job-box span {
     display: block;

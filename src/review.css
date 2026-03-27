@@ -39,10 +39,9 @@
 .review-input {
     display: flex;
     align-items: center;
-     flex: 1;   /* IMPORTANT  jitni bi extra spaceha mujhe de do */
+    flex: 1;   /* IMPORTANT  jitni bi extra spaceha mujhe de do */
     border: 2px solid grey;
     border-radius: 10px;
-    background-color: white;
 }
 .review-input i {
     font-size: 20px;
@@ -134,5 +133,9 @@
     }
     .review-container {
         padding: 60px 40px;
+    }
+    .review-input input{
+        width: 100%;
+        background-color: white;
     }
 }
