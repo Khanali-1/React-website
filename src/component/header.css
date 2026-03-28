@@ -55,9 +55,8 @@ color:#2557a7;
   padding:15px 20px;
   background:white;
   border-bottom:1px solid #ddd;
-  position: fixed;
+  position: sticky;
   top: 0px; 
-  width: 100%;
 }
 
 /* media query  for responsiveness*/
